@@ -1,0 +1,48 @@
+:root {
+  --primary: #1852b1;
+  --secondary: #424242;
+  --background: #ffffff;
+  --light: rgba(0, 0, 0, 0.54);
+  --text: rgb(117, 117, 117);
+  --light-blue: rgb(26, 115, 232);
+  --ligher-blue: rgb(2, 119, 189);
+  --text-dark: rgb(97, 97, 97);
+  --hover: #e4e4e4;
+}
+.contact-compoment {
+  min-height: calc(100vh - 60px);
+}
+.contact__container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  margin: 0 auto;
+  gap: 30px;
+}
+.contact__heading {
+  color: var(--light-blue);
+  font-size: 1.5rem;
+}
+.contact__article {
+  font-size: 1.1rem;
+  word-spacing: 1px;
+  color: var(--text-dark);
+}
+.contact__social-heading {
+  color: var(--text-dark);
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+.contact__icons {
+  display: flex;
+  gap: 10px;
+  color: var(--text);
+  font-size: 1.2rem;
+}
+.contact__question {
+  color: var(--text-dark);
+}
+.contact__question span {
+  color: var(--ligher-blue);
+}

@@ -1,0 +1,20 @@
+{
+  "FeatureEventName": "IO Extended'19 Lafia",
+  "EventImage": "io19.jpeg",
+  "EventDate": {
+    "Date": "31",
+    "Month": "3",
+    "Year": "2019"
+  },
+  "EventTime": {
+    "StartTime": "09:00 AM",
+    "EndTime": "04:30 PM"
+  },
+  "EventVenue": "ICT Complex Federal University Lafia",
+  "EventVenueMapLink": "https://www.google.com/maps/search/?api=1&query=8.473896%2C8.558076",
+  "EventWebsite": "https://www.meetup.com/gdglafia/events/261318417/",
+  "EventDescription": "Give our community members the opportunity to take part and feel the I/O experience, we will be watching all the exciting announcements from both the General Keynote as well as the Developers Keynote where latest news and updates to Google's developer products and platforms were be announced. #io19extended",
+  "MeetupLink": "https://www.meetup.com/gdglafia/events/261318417/",
+  "RegistrationLink": "https://www.meetup.com/gdglafia/events/261318417/",
+  "FBEventPageURL": "s"
+}

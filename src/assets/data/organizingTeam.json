@@ -1,0 +1,37 @@
+[{
+    "name": "Auwal MS",
+    "designation": "Software Engineer",
+    "twitter": "https://twitter.com/auwalms",
+    "linkedin": "https://www.linkedin.com/in/auwalms",
+    "github": "https://github.com/auwalms",
+    "profileImage": "auwal.jpg",
+    "website": ""
+  },
+  {
+    "name": "Abdullahi Aliyu",
+    "designation": "Software Developer",
+    "twitter": "https://twitter.com/abba_xee",
+    "linkedin": "https://www.linkedin.com/in/abdullahi-aliyu-61650a15a/",
+    "github": "https://github.com/abbaxee",
+    "profileImage": "abdullahi.jpeg",
+    "website": ""
+  },
+  {
+    "name": "Tasiu Kwaplong",
+    "designation": "Web Developer",
+    "twitter": "https://twitter.com/tasiukwaplong_",
+    "linkedin": "https://www.linkedin.com/in/tasiu-kwaplong-b38763174",
+    "github": "https://github.com/tasiukwaplong",
+    "profileImage": "tasiu.jpg",
+    "website": ""
+  },
+  {
+    "name": "Ruth Samuel",
+    "designation": "UI/UX Designer",
+    "twitter": "https://twitter.com/iamruthie_young",
+    "linkedin": "",
+    "github": "https://github.com/RuthySam",
+    "profileImage": "ruthy.jpg",
+    "website": ""
+  }
+]

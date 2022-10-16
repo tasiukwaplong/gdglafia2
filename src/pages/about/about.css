@@ -1,0 +1,136 @@
+:root {
+  --primary: #1852b1;
+  --secondary: #424242;
+  --background: #ffffff;
+  --light: rgba(0, 0, 0, 0.54);
+  --text: rgb(117, 117, 117);
+  --light-blue: rgb(26, 115, 232);
+  --ligher-blue: rgb(2, 119, 189);
+  --text-dark: rgb(97, 97, 97);
+  --hover: #e4e4e4;
+  --blue: #4285f4;
+  --red: #db4437;
+  --green: #0f9d58;
+  --yellow: #f4b400;
+  --gray: #737373;
+  --white: #fff;
+}
+.link-reset {
+  text-decoration: none;
+}
+.about__hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  gap: 20px;
+  background-color: var(--green);
+  min-height: 84vh;
+  align-items: center;
+  padding: 20px 30px;
+}
+.hero__background {
+  background-image: url(../../assets/img/gdg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  flex: 1 500px 300px;
+  height: 300px;
+}
+.hero__content {
+  flex: 1 500px 300px;
+  height: min-content;
+  padding: 5px;
+}
+.hero__p1 {
+  color: var(--white);
+}
+.hero__p2 {
+  color: var(--white);
+  margin: 10px 0;
+}
+.hero__member {
+  background-color: var(--ligher-blue);
+  color: var(--background);
+  padding: 12px 6px;
+  border-radius: 5px;
+}
+.hero__learn__more {
+  color: #000;
+  background-color: var(--yellow);
+  padding: 12px 10px;
+  margin: 0 10px;
+}
+.commuity-guide-section {
+  background-color: #fafafa;
+  padding: 20px 0;
+}
+.community-wrapper {
+  width: 85%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.accordion__container {
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px -0.5px 1.5px;
+}
+.accordion__heading {
+  color: var(--ligher-blue);
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+.acordion__header {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  border: 2px solid #eeeeee;
+  padding: 10px 20px 5px 20px;
+  font-size: 1.1rem;
+}
+.acordion__header span {
+  transform: rotate(90deg);
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.704);
+  cursor: pointer;
+}
+.accordion__des {
+  background-color: #eeeeee;
+  color: #000;
+  height: 0;
+  overflow: hidden;
+  word-spacing: 2px;
+}
+.active__accord {
+  padding: 12px 15px;
+  height: min-content;
+}
+/*  */
+.code {
+  padding: 40px 0;
+}
+.code__heading {
+  font-size: 1.5rem;
+  color: var(--ligher-blue);
+  margin-bottom: 20px;
+}
+.code__text {
+  color: rgba(0, 0, 0, 0.826);
+}
+
+.harassment__heading {
+  color: var(--ligher-blue);
+  font-size: 1.8rem;
+}
+.harassment-p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+.harassment-ul {
+  color: rgba(0, 0, 0, 0.826);
+  line-height: 22px;
+}
+
+@media only screen and (min-width: 760px) {
+  .community-wrapper {
+    width: 500px;
+  }
+}
